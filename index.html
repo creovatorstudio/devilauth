@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devil Auth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Devil Auth</h1>
+    <div id="auth-section">
+      <button id="login-btn">Login</button>
+      <button id="logout-btn" style="display: none;">Logout</button>
+    </div>
+    <div id="password-saver" style="display: none;">
+      <h2>Password Saver</h2>
+      <input type="text" id="site-name" placeholder="Site Name">
+      <input type="password" id="site-password" placeholder="Password">
+      <button id="save-password">Save Password</button>
+      <ul id="saved-passwords"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
